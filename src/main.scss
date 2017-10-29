@@ -1,1 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
+// @import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
+
+html, body {
+    background-color: #fff;
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+@media screen and (min-width: 1019px) {
+    html {
+        font-size: 160px !important;
+    }
+}

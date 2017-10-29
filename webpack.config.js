@@ -23,7 +23,7 @@ module.exports = {
                 test: /\.s[ac]ss$/,
                 use: ExtractTextPlugin.extract(
                     {
-                        use: ['css-loader', 'sass-loader'],
+                        use: ['css-loader', 'sass-loader', 'vue-css-loader'],
                         fallback: 'style-loader'
                     }
                 )
