@@ -2,18 +2,18 @@
     <div class="flex-center position-ref full-height">
           <div class="content">
               <div class="title m-b-md">
-                  Landing
+                  {{ msg }}
               </div>
           </div>
       </div>
 </template>
 <script>
 export default {
-  data () {
-    return {
-      msg: 'Hello World'
+    data () {
+        return {
+            msg: 'Landing'
+        }
     }
-  }
 }
 </script>
 <style>
