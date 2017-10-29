@@ -4,6 +4,8 @@
         <div class="row">
             <screen1 :attributes="screen1"></screen1>
             <screen2 :attributes="screen2"></screen2>
+            <screen3 :attributes="screen3"></screen3>
+            <screen4 :attributes="screen4"></screen4>
         </div>
     </div>
     <!-- <div class="flex-center position-ref full-height">
@@ -18,12 +20,16 @@
 import banner from './components/banner.vue'
 import screen1 from './pages/screen1.vue'
 import screen2 from './pages/screen2.vue'
+import screen3 from './pages/screen3.vue'
+import screen4 from './pages/screen4.vue'
 
 export default {
     components: {
         banner,
         screen1,
         screen2,
+        screen3,
+        screen4,
     },
     data () {
         return {
@@ -122,6 +128,84 @@ export default {
                     {
                         paragraphs: [
                             '只要您有决心，愿意跟随科学准确的方法而行动，您就能在相对短时间内收获一门外语技能。中国的成年人学习英语也是如此，不管您现在年纪多大，您都可以学会英语；无论您现在英语基础如何，您都能学会并运用自如。'
+                        ]
+                    },
+                    {
+                        banner: [
+                            '/src/images/buy button1.jpg'
+                        ]
+                    }
+                ]
+            },
+            screen3: {
+                mottos: [
+                    {
+                        mottos: {
+                            author: '张骊',
+                            motto: [
+                                '我现在看到有些单词的字母组合，就能感觉到这个单词应该怎么读了，而且我读的准确率比以前高很多，再不像没学功夫英语之前那样总是需要看音标才能读出发音了。',
+                            ]
+                        },
+                    },
+                    {
+                        mottos: {
+                            author: '陈丽玫',
+                            motto: [
+                                '过去学习英语的时候就是习惯于听、说、读、写都是通过母语来翻译成英语的，而不是用英语思维直接输出，由此带来的结果就是：慢、别扭、不地道、开不了口、下不了笔。',
+                                '在经过3周的功夫英语学习后，渐渐的这个习惯自然地、舒服地有了一些改变，慢慢地从情景想象来融入英语。',
+                            ]
+                        },
+                    }
+                ],
+                body: [
+                    {
+                        paragraphs: [
+                            '如果您从事跨国销售或外贸类的工作，您肯定需要用英语和外界沟通。因此，您必然会关心<strong>商务英语</strong>怎么学。大多数人遇到这个问题的第一个反应是，要专门学<strong>商务英语</strong>，才能应付商务工作中的英语沟通需要。很可惜的是，这个思路总是把人的学习结果给带歪了。不是没学会而中途放弃了，就是觉得太难没法坚持。',
+                            '准确看待<strong>商务英语</strong>的视角是，承认<strong>商务英语</strong>和普通日常用语大同小异，要想学好<strong>商务英语</strong>，必需打好日常英语的地基。只有这样，才能避免类似于：单词懂、整句不懂；没法写出顺畅的电邮，没法自如在商务谈判中沟通等现象。',
+                            '要进一步认识<strong>商务英语</strong>和日常英语的关系，在思路上帮助自己了解准确学习<strong>商务英语</strong>的方法，请参看龙飞虎先生的视频 :',
+                            '<strong>商务英语</strong>就是日常英语＋＋（1）、（2）、（3）'
+                        ]
+                    },
+                    {
+                        videos: [
+                            '/src/images/video2.jpg',
+                            '/src/images/video3.jpg',
+                            '/src/images/video4.jpg',
+                        ]
+                    },
+                    {
+                        banner: [
+                            '/src/images/buy button2.jpg'
+                        ]
+                    }
+                ]
+            },
+            screen4: {
+                mottos: [
+                    {
+                        mottos: {
+                            author: '陈红',
+                            motto: [
+                                '老师，您好。前两阶段的课程已基本学完。',
+                                '另有一个好消息值得与老师分享，经过两月的学习,在新公司能听懂一位印度管理者的英语的一部分，虽然不全懂，至少我明白他在说什么。',
+                            ]
+                        },
+                    },
+                    {
+                        mottos: {
+                            author: '谭展',
+                            motto: [
+                                '电邮中的English, I understand. 直接明白，是不知不觉中就明白了。而且随着课程的进展，我的发音也有很大的进步，很多时候感觉能读出来的词几乎都知道怎么拼写。',
+                            ]
+                        },
+                    }
+                ],
+                body: [
+                    {
+                        paragraphs: [
+                            '从龙飞虎先生的视频里，您会认识到一个特别重要的规律，就是<strong>商务英语</strong>的核心是日常英语和普遍的英语比喻为主。 因此如果您要掌握<strong>商务英语</strong>听说交流，就要先掌握98％的日常和生活所需要的英语，在这个基础上，持续累积行业内所需要的词汇就可以了。',
+                            '一听到要先学好98％日常用语，您很可能觉得心慌，感觉那个任务太大，您可能认为那等于要学好100多万英语单词，甚至感到练好日常英语都是一个高不可攀的目标。事实上，解决英语沟通问题需要的英语词汇并不多！',
+                            '根据对上万册商业周刊和日常杂志的数据统计分析，我们发现，只要掌握英语1000个高频词，就能解决85％日常沟通的需要，而要解决98％的日常和工作沟通所需要的英语，您只需要学会3000个英语高频词。掌握了这些高频词后，您就可以比较自如的进行日常沟通、阅读英文报纸杂志。当然，在阅读的过程中，您还会遇到新的词汇，但在这个基础上，您完全有能力了解上下文的含义，并迅速掌握和记住遇到的新词，您的学习效率也会自然进入一个新阶段。',
                         ]
                     }
                 ]

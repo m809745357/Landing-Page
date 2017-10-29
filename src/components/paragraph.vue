@@ -18,6 +18,6 @@
         font-size: 16px;
         line-height: 2em;
         text-indent: 2em;
-        margin-top: 3em;
+        margin-top: 0.31rem /* 50/160 */;
     }
 </style>
