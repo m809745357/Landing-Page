@@ -1,14 +1,22 @@
 <template>
-    <div class="container">
-        <banner :attributes="'./src/images/banner.jpg'"></banner>
-        <hotline :attributes="hotline"></hotline>
-        <div class="row">
-            <screen1 :attributes="screen1"></screen1>
-            <screen2 :attributes="screen2"></screen2>
-            <screen3 :attributes="screen3"></screen3>
-            <screen4 :attributes="screen4"></screen4>
+    <div class="">
+        <div class="container">
+            <banner :attributes="'./src/images/banner.jpg'"></banner>
+            <hotline :attributes="hotline"></hotline>
+            <div class="row">
+                <screen1 :attributes="screen1"></screen1>
+                <screen2 :attributes="screen2"></screen2>
+                <screen3 :attributes="screen3"></screen3>
+                <screen4 :attributes="screen4"></screen4>
+                <screen5 :attributes="screen5"></screen5>
+                <screen6 :attributes="screen6"></screen6>
+                <screen7 :attributes="screen7"></screen7>
+            </div>
         </div>
+        <screen8 :attributes="screen8"></screen8>
     </div>
+
+
     <!-- <div class="flex-center position-ref full-height">
           <div class="content">
               <div class="title m-b-md">
@@ -24,6 +32,10 @@ import screen1 from './pages/screen1.vue'
 import screen2 from './pages/screen2.vue'
 import screen3 from './pages/screen3.vue'
 import screen4 from './pages/screen4.vue'
+import screen5 from './pages/screen5.vue'
+import screen6 from './pages/screen6.vue'
+import screen7 from './pages/screen7.vue'
+import screen8 from './pages/screen8.vue'
 
 export default {
     components: {
@@ -32,6 +44,10 @@ export default {
         screen2,
         screen3,
         screen4,
+        screen5,
+        screen6,
+        screen7,
+        screen8,
         hotline,
     },
     data () {
@@ -101,6 +117,7 @@ export default {
                 ],
                 titleblocks: {
                     type: 'one-line',
+                    num: 1,
                     text: '我能行么？'
                 },
                 paragraphs: [
@@ -175,6 +192,7 @@ export default {
                 ],
                 titleblocks: {
                     type: 'one-line',
+                    num: 1,
                     text: '有效练好商务英语的秘诀'
                 },
                 body: [
@@ -222,6 +240,7 @@ export default {
                 ],
                 titleblocks: {
                     type: 'two-line',
+                    num: 2,
                     text: '先解决日常沟通，<br/>是练好商务英语的必经之路'
                 },
                 body: [
@@ -232,8 +251,113 @@ export default {
                             '根据对上万册商业周刊和日常杂志的数据统计分析，我们发现，只要掌握英语1000个高频词，就能解决85％日常沟通的需要，而要解决98％的日常和工作沟通所需要的英语，您只需要学会3000个英语高频词。掌握了这些高频词后，您就可以比较自如的进行日常沟通、阅读英文报纸杂志。当然，在阅读的过程中，您还会遇到新的词汇，但在这个基础上，您完全有能力了解上下文的含义，并迅速掌握和记住遇到的新词，您的学习效率也会自然进入一个新阶段。',
                         ]
                     }
+                ],
+            },
+            screen5: {
+                titleblocks: {
+                    type: 'two-line',
+                    num: 2,
+                    text: '解决基本的日常沟通，<br/>即可进入商务英语学习路线'
+                },
+                body: [
+                    {
+                        paragraphs: [
+                            '当您掌握了日常英语沟通后，您就会自然而然的具备用英语谈判的初级水平。在这个基础上，随着您更进一步的学习功夫英语课程的商务英语学习路线，以及经常阅读英文行业文件信息，您使用英语的综合能力，以及融入您所在行业的商务沟通能力就会与日俱增。',
+                            '接下来，我们着重说一下谈判英语。谈判是商务活动中的一个重要环节，谈判的时候，大家会经常走进条件性的沟通，比如“如果我们满足条件A，你会同意价格B吗？”这个在结构上与“如果我能过来，你会跟我一起看电影吗？”没有任何本质的区别。只有一点区别，就在于行业内的一些专有名词和术语，需要留心去学习。',
+                            '也就是说，谈判英语其实就是“9成的日常英语，加上1成的行内/商业英语”，所以说，要掌握谈判英语，就绕不开日常英语的学习。',
+                            '当然，如果您急需掌握谈判英语的一些高频表达，功夫英语也能帮到您。在课程的商务英语路线里，有一条谈判英语子路线，里面包含了14个谈判中最高频的英语交流场景和话题，比如：商务会面邀约、交换名片、说服对方采纳自己的产品、洽谈付款条件、公司运营方面的细节讨论，等等。',
+                            '每一个场景训练都包含了多个对话互动，同时，学习的过程中我们采用先中文、后英文的方式，对每一句话、每一个重点词组和单词进行重复，以帮助学员高效率地吸收和记忆。同时，每一个场景对话都有精心原创的美妙背景音乐和酷炫节奏相伴，让学习的过程更有乐趣，更有动感，更有激情！',
+                            '当然，要全面地在商务交际中，独立、自如地使用英语，并达到游刃有余、灵活自如的程度，仅靠商务英语的学习是远远不够的，谈判英语只是给你谈判中最重要、关键、高频的场景英语基础。要想成为专业的英语交际的高手，你需要系统地学习功夫英语课程。'
+                        ]
+                    }
                 ]
-            }
+            },
+            screen6: {
+                titleblocks: {
+                    type: 'two-line',
+                    num: 2,
+                    text: '全面学会功夫英语课程，<br/>就会成为商务英语沟通的高手'
+                },
+                body: [
+                    {
+                        paragraphs: [
+                            '功夫英语课程的设计，就是从这些高频词着手，从第一天学习，就开始帮您建立英语思维。经过基础阶段的学习，您就能顺利掌握好英语1000个高频词，全面的学会功夫英语课程，您将会：'
+                        ],
+                    },
+                    {
+                        list: [
+                            '掌握8,000多英语高频词；',
+                            '掌握20,000多词组、短句；',
+                            '解决98％以上日常生活、工作、商务最重要的交流；'
+                        ]
+                    },
+                    {
+                        paragraphs: [
+                            '当您完成功夫英语的全部课程，您的英语水平将会接近或相当于18岁英语母语者水平。'
+                        ]
+                    },
+                    {
+                        images: [
+                            '/src/images/device-3.jpg'
+                        ]
+                    },
+                    {
+                        paragraphs: [
+                            '具备了这样的基础，你就可以解决98%以上日常生活、工作、商务最重要的英语沟通需要，使您的英语表达跟中文表达一样流畅，从而让你在商务领域中的英语谈判处于不败之地！'
+                        ]
+                    },
+                    {
+                        banner: [
+                            '/src/images/buy button3.jpg'
+                        ]
+                    }
+                ]
+            },
+            screen7: {
+                mottos: [
+                    {
+                        mottos: {
+                            author: 'Angela Liu',
+                            motto: [
+                                '功夫英语是一套非常棒的自学英语工具。这是一个全新的外语学习角度，功夫英语的比喻帮助我快速跨越了文化的阻碍。',
+                                '有个具体的表现就是，我感觉自己的词汇量没有增加的情况下，同样的英文电影我从30%的理解度提高到了80%左右，渐渐开始有一种有把握的感觉了。'
+                            ]
+                        }
+                    },
+                    {
+                        mottos: {
+                            author: '林子欣',
+                            motto: [
+                                '对于一个单词从感觉，听觉，视觉来记忆，以形成条件反射脱口而出说英语，这种概念非常先进。 ',
+                                '其实自己母语就是这样，听到“柠檬”就条件反射认为是酸，是黄色的，我们的大脑原来经历了这些，我们却忽略了。这种身体多个器官参与的记忆的确让人印象深刻。'
+                            ]
+                        }
+                    },
+                ],
+                bodys: [
+                    {
+                        body: [
+                            {
+                                paragraphs: [
+                                    '前面提到的王林和Eric Han 都是非常忙碌的商务人士。',
+                                    '王林是初中学历，英语水平接近零基础，他看了《6个月学会任何一种外语》这本书，也看了一些龙飞虎先生的学习方法视频，他感到自己有机会能行。于是，他决定试试，他几乎没有其他错误学习方法的干扰，他战胜了曾经认为自己学不会的念头后，谦虚踏实的跟随功夫英语方法，每天认真学习功夫英语课程，每一课都做到课程要求的学习标准。就这样，不到3个月，他已经敢于用英语跟外国朋友进行日常沟通，虽然当时他说英语反应比较慢，但他从没气馁过，而是不断的欣赏自己的进步，给自己鼓励。不到1年，他的英语已经非常流利，并能够独立跟外商开会、谈生意，从而能在展会上接到600多万美元的订单。'
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        body: [
+                            {
+                                paragraphs: [
+                                    '您也希望自己像王林、Eric Han 一样战胜自己的英语，让自己拥有更成功的事业，和精彩的人生吗？',
+                                    '无数学会英语的学员，已经用实践证明，<strong>要想学会英语</strong>，就要<strong>把以前错误的方法彻底放下，采用科学的系统</strong>，跟随准确的学习方法，身体力行，<strong>把准确方法执行到底</strong>，就能<strong>获得一个理想的英语学习结果。</strong>'
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            screen8: {}
         }
     }
 }
@@ -245,6 +369,7 @@ export default {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 0;
 }
 
 .row {

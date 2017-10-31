@@ -45,6 +45,7 @@
 
             &:first-child {
                 margin-top: 0.31rem /* 50/160 */;
+                margin-bottom: 0;
             }
         }
         .content {
@@ -55,12 +56,18 @@
             img{
                 align-self: center;
                 margin-top: 0.31rem /* 50/160 */;
+                width: 80%;
             }
         }
         .banner {
             position: relative;
-            width: 125%;;
+            width: 125% !important;
             margin-top: 0.31rem /* 50/160 */ !important;
+        }
+        .video-box {
+            img {
+                width: 100%;
+            }
         }
     }
 
