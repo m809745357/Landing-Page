@@ -1,6 +1,7 @@
 <template>
     <div class="container">
         <banner :attributes="'./src/images/banner.jpg'"></banner>
+        <hotline :attributes="hotline"></hotline>
         <div class="row">
             <screen1 :attributes="screen1"></screen1>
             <screen2 :attributes="screen2"></screen2>
@@ -18,6 +19,7 @@
 </template>
 <script>
 import banner from './components/banner.vue'
+import hotline from './components/hotline.vue'
 import screen1 from './pages/screen1.vue'
 import screen2 from './pages/screen2.vue'
 import screen3 from './pages/screen3.vue'
@@ -30,10 +32,15 @@ export default {
         screen2,
         screen3,
         screen4,
+        hotline,
     },
     data () {
         return {
             msg: 'Landing',
+            hotline: {
+                international: '4006-979-088',
+                domestic: '0755-88820630'
+            },
             screen1: {
                 mottos: [
                     {
@@ -92,6 +99,10 @@ export default {
                         },
                     }
                 ],
+                titleblocks: {
+                    type: 'one-line',
+                    text: '我能行么？'
+                },
                 paragraphs: [
                     '很多外贸行业的老板，既懂专业技术、了解技术的优势，又懂产品推销，可一遇到英语就哑口无言。一位外贸行业的老板叹息：如果我懂英语，我的公司绝对不止现在这个状态了！',
                     '为了学会英语，他们曾经去过学习班，报过网校。投资了钱，花了时间，到头来始终进步不明显。学习的感受是，老师一直在说，自己说的很少，学得很被动。一段时间后，就会心灰意冷、失去信心，感觉很难坚持下去。因此，谈到学英语，第一个反应就是：我能学会吗？',
@@ -162,6 +173,10 @@ export default {
                         },
                     }
                 ],
+                titleblocks: {
+                    type: 'one-line',
+                    text: '有效练好商务英语的秘诀'
+                },
                 body: [
                     {
                         paragraphs: [
@@ -205,6 +220,10 @@ export default {
                         },
                     }
                 ],
+                titleblocks: {
+                    type: 'two-line',
+                    text: '先解决日常沟通，<br/>是练好商务英语的必经之路'
+                },
                 body: [
                     {
                         paragraphs: [

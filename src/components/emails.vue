@@ -61,12 +61,12 @@
             height: 45px;
         }
         .btn-yellow {
-    background-color: #ff931e;
-    border-color: #ff931e;
-    color: #fff;
-    font-weight: bold;
-    font-size: 22px;
-}
+            background-color: #ff931e;
+            border-color: #ff931e;
+            color: #fff;
+            font-weight: bold;
+            font-size: 22px;
+        }
     }
     .form-title {
         font-size: 20px;

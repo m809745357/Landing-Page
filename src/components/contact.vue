@@ -3,7 +3,9 @@
         <div class="content" v-for="(content, index) in contents" :key="index">
             <paragraph v-if="content.paragraphs" v-for="(paragraph, index) in content.paragraphs" :key="index" :attributes="paragraph"></paragraph>
             <img v-if="content.images" v-for="(image, index) in content.images" :key="index" :src="image" width="100%">
-            <img v-if="content.videos" v-for="(video, index) in content.videos" :key="index" :src="video" width="100%">
+            <div class="video-box" v-if="content.videos" v-for="(video, index) in content.videos" :key="index">
+                <img :src="video">
+            </div>
             <banner v-if="content.banner" :attributes="content.banner"></banner>
         </div>
     </div>
@@ -28,6 +30,15 @@
 </script>
 
 <style lang="scss">
+    .video-item {
+        margin-top: 0.31rem /* 50/160 */;
+        a {
+            display: block;
+        }
+        img {
+            margin-top: 0;
+        }
+    }
     .body {
         .paragraph {
             margin-top: 0;
