@@ -30,7 +30,7 @@
         display: grid;
         grid-template-columns: auto auto auto;
         justify-content: center;
-
+		margin-top: 45px;
         .block-title-left {
             justify-self: right;
         }
@@ -40,7 +40,7 @@
             justify-content: center;
             align-items: center;
             color: #fff;
-            font-size: 24px;
+            font-size: 22px;
             text-align: center;
 
             &.one-line {

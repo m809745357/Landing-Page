@@ -56,7 +56,7 @@
             img{
                 align-self: center;
                 margin-top: 0.31rem /* 50/160 */;
-                width: 80%;
+                width: 60%;
             }
         }
         .banner {
